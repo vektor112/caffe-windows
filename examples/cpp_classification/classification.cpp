@@ -1,4 +1,7 @@
 #include <caffe/caffe.hpp>
+
+#define USE_OPENCV
+
 #ifdef USE_OPENCV
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
